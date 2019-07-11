@@ -1,0 +1,16 @@
+---
+layout: default
+title: By Year | 
+---
+
+<h1>All Games By Year</h1>
+
+{% for post in site.posts %}
+  {% assign currentyear = post.year %}
+  {% if currentyear != year %}
+    <h2 id="{{ currentyear }}">All Games Released in {{ currentyear }}</h2>
+    {% assign year = currentyear %} 
+  {% endif %}
+    {% include post_preview.html %}
+{% endfor %}
+

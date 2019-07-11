@@ -1,0 +1,15 @@
+---
+layout: default
+title: Animal Game Database | 
+excerpt: "All games sorted by latest release."
+---
+
+<h1>🐾 All Video Games Featuring Animals</h1>
+
+{% for post in site.posts %}
+
+<div id="{{ post.title }}">
+{% include post_preview.html %}
+</div>
+
+{% endfor %}

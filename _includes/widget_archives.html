@@ -1,0 +1,98 @@
+
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by year</option>
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+            {% assign thisyear = post.year %}
+            {% assign prevyear = post.previous.year %}
+            {% assign counter = counter | plus: 1 %}
+            {% if thisyear != prevyear %}
+            <option value="/year/#{{ post.year }}">{{ thisyear }} ({{ counter }})</a></option>
+            {% assign counter = 0 %}
+            {% endif %}
+            {% endfor %}
+        </select>
+<br><br>
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by developer</option>
+
+            <option value="/developer/#Bluehole Studio">Bluehole Studio</a></option>            
+            <option value="/developer/#Clover Studio">Clover Studio</a></option>
+            <option value="/developer/#Eduweb">Eduweb</a></option>
+            <option value="/developer/#Nintendo">Nintendo</a></option>            
+            <option value="/developer/#Tale of Tales">Tale of Tales</a></option>
+            
+        </select>
+<br><br>
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by series</option>
+
+            <option value="/series/#Animal Crossing">Animal Crossing</a></option>
+            <option value="/series/#Okami">Okami</a></option>
+            <option value="/series/#Shelter">Shelter</a></option>
+            
+        </select>
+<br><br>
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by species</option>
+
+            <option value="/species/#bird">bird</a></option>
+            <option value="/species/#cat">cat</a></option>
+            <option value="/species/#deer">deer</a></option>
+            <option value="/species/#dog">dog</a></option>
+            <option value="/species/#fox">fox</a></option>
+            <option value="/species/#multiple">multiple</a></option>
+            <option value="/species/#rabbit">rabbit</a></option>
+            <option value="/species/#reptile">reptile</a></option>
+            <option value="/species/#rodent">rodent</a></option>
+            <option value="/species/#wolf">wolf</a></option>
+
+        </select>
+<br><br>
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by type</option>
+
+            <option value="/type/#anthropomorphic">anthropomorphic</a></option>            
+            <option value="/type/#realistic">realistic</a></option>
+            <option value="/type/#zoomorphic">zoomorphic</a></option>
+
+        </select>
+<br><br>
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by genre</option>
+
+            <option value="/genre/#action">action</a></option>
+            <option value="/genre/#action-adventure">action-adventure</a></option>
+            <option value="/genre/#fighting">fighting</a></option>
+            <option value="/genre/#mmo">mmo</a></option>
+            <option value="/genre/#mmorpg">mmorpg</a></option>            
+            <option value="/genre/#rpg">rpg</a></option>
+            <option value="/genre/#simulation">simulation</a></option>
+            
+        </select>
+<br><br>
+        <select onchange="location = this.value;">
+            <option value=" ">Filter by platform</option>
+
+            <option value="/platform/#Android">Android</a></option>
+            <option value="/platform/#GameCube">GameCube</a></option>
+            <option value="/platform/#iOS">iOS</a></option>
+            <option value="/platform/#iQue Player">iQue Player</a></option>
+            <option value="/platform/#Linux">Linux</a></option>
+            <option value="/platform/#macOS">macOS</a></option>   
+            <option value="/platform/#Nintendo 3DS">Nintendo 3DS</a></option>
+            <option value="/platform/#Nintendo 64">Nintendo 64</a></option>
+            <option value="/platform/#Nintendo DS">Nintendo DS</a></option>
+            <option value="/platform/#Nintendo Switch">Nintendo Switch</a></option>
+            <option value="/platform/#PlayStation 1">PlayStation 1</a></option>
+            <option value="/platform/#PlayStation 2">PlayStation 2</a></option>
+            <option value="/platform/#PlayStation 3">PlayStation 3</a></option>
+            <option value="/platform/#PlayStation 4">PlayStation 4</a></option>
+            <option value="/platform/#Wii">Wii</a></option>
+            <option value="/platform/#Wii U">Wii U</a></option>
+            <option value="/platform/#Windows">Windows</a></option>
+            <option value="/platform/#Xbox">Xbox</a></option>
+            <option value="/platform/#Xbox 360">Xbox 360</a></option>
+            <option value="/platform/#Xbox One">Xbox One</a></option>
+            
+        </select>

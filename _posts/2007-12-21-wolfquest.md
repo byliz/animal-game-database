@@ -1,0 +1,27 @@
+---
+layout: post
+title: WolfQuest
+date: 2007-12-21
+year: 2007
+artstyle: 3D
+playable: "Yes"
+mods: "No"
+type: realistic
+species: 
+- wolf
+emoticon:
+- 🐺
+genre: simulation
+platform:
+- Windows
+- macOS
+- Android
+- iOS
+developer: Eduweb
+publisher: Eduweb
+excerpt: Play as a gray wolf in YellowStone National Park! Hunt for food, find a mate, raise puppies, and more in singleplayer. Play with others in online multiplayer.
+link: https://en.wikipedia.org/wiki/WolfQuest
+img: https://upload.wikimedia.org/wikipedia/en/9/9f/WolfQuestlogo.PNG
+comments: true
+---
+
