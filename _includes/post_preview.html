@@ -2,7 +2,7 @@
 	<img src="/img/{{ post.img }}" class="img-fluid" alt="{{ post.title }}" style="width: 100%; border-radius: 20px; border: 5px solid pink;">
 	<br><br>
 	<h3>{{ post.title }} {% for tags in post.emoticon %}{{ tags }} {% endfor %}</h3>
-	<br>
+
 	<p class="excerpt">
 
 		📅 Released: {{ post.date | date_to_long_string }}	<br>✨ Type: <a href="/type/#{{ post.type }}" title="See all games with characters of this type.">{{ post.type }}</a> 
@@ -46,11 +46,11 @@
 		<br><br>
 		
 		📖 Summary: {{ post.excerpt }}<br><br>
-		<a href="{{ post.link }}" target="_blank" title="Read more about {{ post.title }} on Wikipedia.org.">ℹ️ More information</a> 
-		<br><br>
+		<a href="{{ post.link }}" target="_blank" title="Read more about {{ post.title }} on Wikipedia.org.">ℹ️ More information</a> </p>
+		
 		🔗 <input type="text" value="https://agdb.smugcroc.com/#{{ post.title | downcase | remove: ' ' }}" id="myInput {{ post.title }}">
 		<!--<button onclick="myFunction()" title="Copy link to {{ post.title }}.">Copy</button>-->
-	</p>
+	
 </div>
 
 <!--<script>

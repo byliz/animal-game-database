@@ -135,6 +135,10 @@ div.post {
   border: 5px solid pink;
 }
 
+div#content div.post p.excerpt, div#content div.post h3 {
+  margin-bottom: 30px;
+}
+
 div.post input {
   width: 80%;
   font-size: 12pt;
