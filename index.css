@@ -18,6 +18,10 @@ em {
   font-style: italic;
 }
 
+strong {
+  font-weight: bold;
+}
+
 div#content a, div#navigation a {
   color: green;
   transition: all .5s;
