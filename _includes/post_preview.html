@@ -14,7 +14,20 @@
 		[<a href="/species/#{{ tags }}" title="See all games with this animal species."> {{ tags }} </a>] 
 		{% endfor %}
 
-		<br>🎮 Play as animal? {{ post.playable }} <br>🔧 Has mods? {{ post.mods }} <br>📝 Genre: <a href="/genre/#{{ post.genre }}" title="See all {{ post.genre }} games.">{{ post.genre }}</a> <br>🎨 Art Style: {{ post.artstyle }} <br>💻 Platform(s):			
+		<br>🎮 Play as animal? {{ post.playable }} <br>🔧 Has mods? {{ post.mods }} <br>
+
+
+
+		📝 Genre(s): 
+
+		{% for tags in post.genre %}
+
+		[ <a href="/genre/#{{ tags }}" title="See all {{ tags }} games.">{{ tags }}</a>]  
+
+		{% endfor %}
+
+
+		<br>🎨 Art Style: {{ post.artstyle }} <br>💻 Platform(s):			
 		{% for tags in post.platform %}
 		
 		[<a href="/platform/#{{ tags }}" title="See all games on {{ tags }}."> {{ tags }} </a>] 
