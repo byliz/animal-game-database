@@ -19,7 +19,8 @@ emoticon:
 - 🐱
 - 🐺
 - 🐀
-genre: action
+genre: 
+- action
 platform:
 - Windows
 - macOS

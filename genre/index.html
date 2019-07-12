@@ -7,49 +7,72 @@ title: By Genre |
 
 <h2 id="action">All Action Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "action" %}
+{% for tags in post.genre %}
+{% if tags == "action" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 <h2 id="action-adventure">All Action-adventure Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "action-adventure" %}
+{% for tags in post.genre %}
+{% if tags == "action-adventure" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 <h2 id="fighting">All Fighting Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "fighting" %}
+{% for tags in post.genre %}
+{% if tags == "fighting" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 <h2 id="mmo">All MMO Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "mmo" %}
+{% for tags in post.genre %}
+{% if tags == "mmo" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 <h2 id="mmorpg">All MMORPG Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "mmorpg" %}
+{% for tags in post.genre %}
+{% if tags == "mmorpg" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 <h2 id="rpg">All RPG Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "rpg" %}
+{% for tags in post.genre %}
+{% if tags == "rpg" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 <h2 id="simulation">All Simulation Games</h2>
 {% for post in site.posts %}
-{% if post.genre == "simulation" %}
+{% for tags in post.genre %}
+{% if tags == "simulation" %}
 {% include post_preview.html %}
 {% endif %}
+{% endfor %}
+{% endfor %}
+
+<h2 id="social">All Social Games</h2>
+{% for post in site.posts %}
+{% for tags in post.genre %}
+{% if tags == "social" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
 {% endfor %}

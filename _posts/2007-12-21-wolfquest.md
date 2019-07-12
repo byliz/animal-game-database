@@ -11,7 +11,8 @@ species:
 - wolf
 emoticon:
 - 🐺
-genre: simulation
+genre: 
+- simulation
 platform:
 - Windows
 - macOS

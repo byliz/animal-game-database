@@ -11,7 +11,9 @@ species:
 - multiple
 emoticon:
 - 🌎
-genre: simulation
+genre: 
+- social
+- simulation
 platform:
 - GameCube
 - Nintendo 64

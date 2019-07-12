@@ -13,7 +13,9 @@ species:
 emoticon: 
 - 🐶
 - 🐱
-genre: rpg
+genre:
+- action 
+- rpg
 platform:
 - Nintendo DS
 developer: CyberConnect2

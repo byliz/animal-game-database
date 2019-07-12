@@ -11,7 +11,8 @@ species:
 - deer
 emoticon:
 - 🦌
-genre: mmo
+genre: 
+- mmo
 platform:
 - Windows
 developer: Tale of Tales
