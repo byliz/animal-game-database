@@ -135,6 +135,33 @@ div.post {
   border: 5px solid pink;
 }
 
+div.post input {
+  width: 80%;
+  font-size: 12pt;
+  font-family: sans-serif;
+  color: #110b54;
+  border: none;
+}
+
+div.post button {
+  font-size: 15pt;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: #110b54; 
+  font-family: sans-serif;
+  border: none;
+  color: white;
+  transition: all .5s;
+}
+
+div.post button:hover {
+  border: none;
+  text-decoration: none;
+  color: #110b54;
+  background-color: white;
+}
+
 div.archives {
   border-radius: 0px;
   margin-left: 0px;
