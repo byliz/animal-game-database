@@ -20,7 +20,7 @@ publisher: Tale of Tales
 series: 
 excerpt: Play as a deer in a mystical forest with other deer. You start off as a fawn and then grow up into a deer with antlers that you can decorate. You can only communicate with others through body language and deer calls. This game is more an artistic expression than a game, and the deer have human faces, giving them an uncanny but memorable vibe.
 link: https://en.wikipedia.org/wiki/The_Endless_Forest
-img: http://tale-of-tales.com/TheEndlessForest/images/screenshots/20060212_twingods3.jpg
+img: theendlessforest.jpg
 suggester: 
 suggesterurl: 
 ---
