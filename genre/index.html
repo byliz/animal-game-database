@@ -50,6 +50,15 @@ title: By Genre |
 {% endfor %}
 {% endfor %}
 
+<h2 id="platformer">All Platformer Games</h2>
+{% for post in site.posts %}
+{% for tags in post.genre %}
+{% if tags == "platformer" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
 <h2 id="rpg">All RPG Games</h2>
 {% for post in site.posts %}
 {% for tags in post.genre %}
