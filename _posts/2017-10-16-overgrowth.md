@@ -30,7 +30,6 @@ publisher:
 series: Lugaru
 excerpt: Play as an anthropomorphic rabbit trying to save his homeland with high-flying platforming and hardcore hand-to-hand and melee combat. This is the sequel to Lugaru.
 link: https://en.wikipedia.org/wiki/Overgrowth_(video_game)
-img: https://upload.wikimedia.org/wikipedia/en/1/19/Overgrowthlogo.png
-comments: true
+suggester: 
 ---
 

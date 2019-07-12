@@ -21,7 +21,6 @@ developer: Eduweb
 publisher: Eduweb
 excerpt: Play as a gray wolf in YellowStone National Park! Hunt for food, find a mate, raise puppies, and more in singleplayer. Play with others in online multiplayer.
 link: https://en.wikipedia.org/wiki/WolfQuest
-img: https://upload.wikimedia.org/wikipedia/en/9/9f/WolfQuestlogo.PNG
-comments: true
+suggester: 
 ---
 
