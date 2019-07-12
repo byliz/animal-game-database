@@ -68,6 +68,15 @@ title: By Genre |
 {% endfor %}
 {% endfor %}
 
+<h2 id="sandbox">All Sandbox Games</h2>
+{% for post in site.posts %}
+{% for tags in post.genre %}
+{% if tags == "sandbox" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
 <h2 id="simulation">All Simulation Games</h2>
 {% for post in site.posts %}
 {% for tags in post.genre %}
