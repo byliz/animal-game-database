@@ -9,23 +9,30 @@ title: By Series |
 <p>Here are all the games that have sequels.</p>
 </div>
 
-<h2 id="Animal Crossing">All Games in the Animal Crossing Series</h2>
+<h2 id="animalcrossing">All Games in the Animal Crossing Series</h2>
 {% for post in site.posts %}
 {% if post.series == "Animal Crossing" %}
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}
 
-<h2 id="Lugaru">All Games in the Lugaru Series</h2>
+<h2 id="lugaru">All Games in the Lugaru Series</h2>
 {% for post in site.posts %}
 {% if post.series == "Lugaru" %}
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}
 
-<h2 id="Okami">All Games in the Okami Series</h2>
+<h2 id="okami">All Games in the Okami Series</h2>
 {% for post in site.posts %}
 {% if post.series == "Okami" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+
+<h2 id="shelter">All Games in the Shelter Series</h2>
+{% for post in site.posts %}
+{% if post.series == "Shelter" %}
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}

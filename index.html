@@ -8,7 +8,7 @@ excerpt: "All games sorted by latest release."
 
 {% for post in site.posts %}
 
-<div id="{{ post.title }}">
+<div id="{{ post.title | downcase | remove: ' ' }}">
 {% include post_preview.html %}
 </div>
 
