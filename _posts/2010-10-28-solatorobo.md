@@ -26,6 +26,7 @@ publisher:
 series: 
 excerpt: In this action rpg set in a steampunk fantasy world you play as Red Savarin, an anthropomorphic dog called a "caninu", who pilots a flying mecha. Your partner is the mysterious Elh, an anthropomorphic cat called a "felineko".
 link: https://en.wikipedia.org/wiki/Solatorobo:_Red_the_Hunter
+img: https://cms.gameflycdn.com/proxy/gf/boxart/480w/148635.jpg
 suggester: Ghostly
 suggesterurl: http://twitter.com/iamGhostlyS
 ---

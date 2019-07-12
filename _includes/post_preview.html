@@ -1,7 +1,6 @@
 <div class="post">
-	<a href="{{ post.link }}">
-		<!--<img src="{{ site.baseurl }}/img/{{ post.img }}" class="featured-img img-fluid">-->
-	</a>
+	<img src="{{ post.img }}" class="img-fluid" alt="{{ post.title }}" style="width: 100%; border-radius: 20px; border: 5px solid pink;">
+	<br><br>
 	<h3>{{ post.title }} {% for tags in post.emoticon %}{{ tags }} {% endfor %}</h3>
 	<br>
 	<p class="excerpt">
