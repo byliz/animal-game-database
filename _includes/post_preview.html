@@ -31,7 +31,7 @@
 		
 		[<a href="/platform/#{{ tags | downcase | remove: ' ' }}" title="See all games on {{ tags }}."> {{ tags }} </a>] 
 
-		{% endfor %} <br>⬆️ Developer: <a href="https://www.google.com/search?q='{{ post.developer }}'" title="Learn more about {{ post.developer }}.">{{ post.developer }}</a> <br>⬇️ Publisher(s): 
+		{% endfor %} <br>⬆️ Developer: <a href="https://www.google.com/search?q='{{ post.developer }}'" target="_blank" title="Learn more about {{ post.developer }}.">{{ post.developer }}</a> <br>⬇️ Publisher(s): 
 		{% for tags in post.publisher %}
 		
 		[ {{ tags }} ] 
