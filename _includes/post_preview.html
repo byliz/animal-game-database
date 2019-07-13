@@ -1,5 +1,5 @@
 <div class="post">
-	<img src="/img/{{ post.img }}" class="img-fluid" alt="{{ post.title }}" style="width: 100%; border-radius: 20px; border: 5px solid pink;">
+	<div class="postimg"><img src="/img/{{ post.img }}" class="img-fluid" alt="{{ post.title }}"></div>
 	<br><br>
 	<h3>{{ post.title }} {% for tags in post.emoticon %}{{ tags }} {% endfor %}</h3>
 

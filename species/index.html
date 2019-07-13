@@ -59,6 +59,15 @@ title: By Species |
 {% endfor %}
 {% endfor %}
 
+<h2 id="other">All Games with Other Species</h2>
+{% for post in site.posts %}
+{% for tags in post.species %}
+{% if tags == "other" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
 <h2 id="rabbit">All Games with Rabbits</h2>
 {% for post in site.posts %}
 {% for tags in post.species %}
