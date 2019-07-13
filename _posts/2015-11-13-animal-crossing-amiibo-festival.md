@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Animal Crossing: Amiibo Festival"
 date: 2015-11-13
 year: 2015

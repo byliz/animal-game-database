@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Animal Crossing
 date: 2001-04-14
 year: 2001

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Animal Crossing: Pocket Camp"
 date: 2017-10-25
 year: 2017

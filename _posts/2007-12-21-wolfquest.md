@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: WolfQuest
 date: 2007-12-21
 year: 2007

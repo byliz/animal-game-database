@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Endless Forest
 date: 2006-02-15
 year: 2006

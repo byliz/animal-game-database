@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Animal Crossing: New Leaf"
 date: 2012-11-08
 year: 2012

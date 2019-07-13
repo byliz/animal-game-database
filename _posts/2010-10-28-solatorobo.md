@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Solatorobo: Red the Hunter"
 date: 2010-10-28
 year: 2010

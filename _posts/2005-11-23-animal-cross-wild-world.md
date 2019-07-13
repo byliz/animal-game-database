@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Animal Crossing: Wild World"
 date: 2005-11-23
 year: 2005

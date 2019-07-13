@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Animal Crossing: City Folk"
 date: 2008-11-16
 year: 2008

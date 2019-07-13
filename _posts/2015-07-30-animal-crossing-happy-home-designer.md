@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Animal Crossing: Happy Home Designer"
 date: 2015-07-30
 year: 2015

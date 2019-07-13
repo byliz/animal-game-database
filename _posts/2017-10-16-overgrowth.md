@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Overgrowth
 date: 2017-10-16
 year: 2017
