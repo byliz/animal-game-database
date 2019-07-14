@@ -112,3 +112,12 @@ title: By Genre |
 {% endif %}
 {% endfor %}
 {% endfor %}
+
+<h2 id="survival">All Survival Games</h2>
+{% for post in site.posts %}
+{% for tags in post.genre %}
+{% if tags == "survival" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
