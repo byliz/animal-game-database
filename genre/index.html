@@ -32,6 +32,15 @@ title: By Genre |
 {% endfor %}
 {% endfor %}
 
+<h2 id="fps">All First-Person Shooter Games</h2>
+{% for post in site.posts %}
+{% for tags in post.genre %}
+{% if tags == "fps" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
 <h2 id="mmo">All MMO Games</h2>
 {% for post in site.posts %}
 {% for tags in post.genre %}
@@ -117,6 +126,15 @@ title: By Genre |
 {% for post in site.posts %}
 {% for tags in post.genre %}
 {% if tags == "survival" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+<h2 id="tps">All Third-Person Shooter Games</h2>
+{% for post in site.posts %}
+{% for tags in post.genre %}
+{% if tags == "tps" %}
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}
