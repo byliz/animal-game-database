@@ -10,7 +10,7 @@
 		<br>🦋 Species: 
 
 		{% for tags in post.species %}
-		[<a href="/species/#{{ tags }}" title="See all games with this animal species."> {{ tags }} </a>] 
+		[<a href="/species/#{{ tags | downcase | remove: ' ' }}" title="See all games with this animal species."> {{ tags }} </a>] 
 		{% endfor %}
 
 		<br>🎮 Play as animal? {{ post.playable }} <br>🔧 Has mods? {{ post.mods }} <br>
