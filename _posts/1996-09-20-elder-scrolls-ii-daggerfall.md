@@ -17,8 +17,7 @@ genre:
 - action
 - rpg
 platform:
-- Windows
-- Xbox
+- MS-DOS
 developer: Bethesda Softworks
 publisher:
 - Bethesda Softworks
