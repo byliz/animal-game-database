@@ -36,3 +36,10 @@ title: By Series |
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}
+
+<h2 id="theelderscrolls">All Games in the Elder Scrolls Series</h2>
+{% for post in site.posts %}
+{% if post.series == "The Elder Scrolls" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
