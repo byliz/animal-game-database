@@ -24,7 +24,7 @@ developer: Bethesda Game Studios
 publisher:
 - Bethesda Softworks
 - 2K Games
-series: "The Elders Scrolls"
+series: "The Elder Scrolls"
 excerpt: "In this fourth installment of the popular <em>Elder Scrolls</em> series, there are two races that are animal-inspired: the cat-like Khajiit, and the lizard-like Argonians."
 link: https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion
 img: oblivion.jpg

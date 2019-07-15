@@ -22,7 +22,7 @@ platform:
 developer: Bethesda Game Studios
 publisher:
 - Bethesda Softworks
-series: "The Elders Scrolls"
+series: "The Elder Scrolls"
 excerpt: "In this third installment of the popular <em>Elder Scrolls</em> series, there are two races that are animal-inspired: the cat-like Khajiit, and the lizard-like Argonians."
 link: https://en.wikipedia.org/wiki/The_Elder_Scrolls_III:_Morrowind
 img: morrowind.jpg

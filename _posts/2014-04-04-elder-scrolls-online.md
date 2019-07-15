@@ -24,7 +24,7 @@ platform:
 developer: ZeniMax Online Studios
 publisher:
 - Bethesda Softworks
-series: "The Elders Scrolls"
+series: "The Elder Scrolls"
 excerpt: "In this MMORPG spinoff of the <em>Elder Scrolls</em> series, there are two races that are animal-inspired: the cat-like Khajiit, and the lizard-like Argonians."
 link: https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online
 img: eso.jpg
