@@ -1,5 +1,5 @@
 <div class="post">
-	<div class="postimg"><img src="/img/{{ post.img }}" class="img-fluid" alt="{{ post.title }}"></div>
+	<div class="postimg"><img src="https://lizlorena.com/img/animal-games-database/{{ post.img }}" class="img-fluid" alt="{{ post.title }}"></div>
 	<br><br>
 	<h3>{{ post.title }} {% for tags in post.emoticon %}{{ tags }} {% endfor %}</h3>
 
@@ -58,7 +58,7 @@
 		📖 Summary: {{ post.excerpt }}<br><br>
 		<a href="{{ post.link }}" target="_blank" title="Read more about {{ post.title }} on Wikipedia.org.">ℹ️ More information</a> </p>
 		
-		🔗 <input type="text" value="https://agdb.smugcroc.com/#{{ post.title | downcase | remove: ' ' }}" id="myInput {{ post.title }}">
+		🔗 <input type="text" value="{{ site.url }}/#{{ post.title | downcase | remove: ' ' }}" id="myInput {{ post.title }}">
 		<!--<button onclick="myFunction()" title="Copy link to {{ post.title }}.">Copy</button>-->
 	
 </div>
