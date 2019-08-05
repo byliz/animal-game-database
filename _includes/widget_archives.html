@@ -1,29 +1,3 @@
-
-        <select onchange="location = this.value;">
-            <option value=" ">Filter by year</option>
-            {% assign counter = 0 %}
-            {% for post in site.posts %}
-            {% assign thisyear = post.year %}
-            {% assign prevyear = post.previous.year %}
-            {% assign counter = counter | plus: 1 %}
-            {% if thisyear != prevyear %}
-            <option value="/year/#{{ post.year }}">{{ thisyear }} ({{ counter }})</a></option>
-            {% assign counter = 0 %}
-            {% endif %}
-            {% endfor %}
-        </select>
-<br><br>
-        <select onchange="location = this.value;">
-            <option value=" ">Filter by series</option>
-
-            <option value="/series/#animalcrossing">Animal Crossing</a></option>            
-            <option value="/series/#lugaru">Lugaru</a></option>
-            <option value="/series/#okami">Okami</a></option>
-            <option value="/series/#shelter">Shelter</a></option>
-            <option value="/series/#theelderscrolls">The Elder Scrolls</a></option>
-            
-        </select>
-<br><br>
         <select onchange="location = this.value;">
             <option value=" ">Filter by species</option>
 
@@ -45,7 +19,7 @@
         <select onchange="location = this.value;">
             <option value=" ">Filter by type</option>
 
-            <option value="/type/#anthropomorphic">anthropomorphic</a></option>            
+            <option value="/type/#anthropomorphic">anthropomorphic</a></option>
             <option value="/type/#realistic">realistic</a></option>
             <option value="/type/#zoomorphic">zoomorphic</a></option>
 
