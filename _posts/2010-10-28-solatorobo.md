@@ -2,7 +2,7 @@
 layout: default
 title: "Solatorobo: Red the Hunter"
 date: 2010-10-28
-year: 2010
+latestdate: 
 artstyle: 2D and 3D
 playable: "Yes"
 mods: "No"

@@ -2,7 +2,7 @@
 layout: default
 title: WolfQuest
 date: 2007-12-21
-year: 2007
+latestdate: 
 artstyle: 3D
 playable: "Yes"
 mods: "No"

@@ -2,7 +2,7 @@
 layout: default
 title: "Blade & Soul"
 date: 2012-06-30
-year: 2012
+latestdate: 
 artstyle: 3D
 playable: "Yes"
 mods: "No"
@@ -26,7 +26,7 @@ developer:
 publisher:
 - NCSOFT
 series: 
-excerpt: "In this MMORPG there is a race that has animal traits: the Lyn, which resemble children with animal ears and tails.."
+excerpt: "In this MMORPG there is a race that has animal traits: the Lyn, which resemble children with animal ears and tails. Something that sets this MMORPG apart from the rest (except for TERA) is the satisfying action combat."
 link: https://en.wikipedia.org/wiki/Blade_%26_Soul
 img: bladeandsoul.jpg
 suggester: 

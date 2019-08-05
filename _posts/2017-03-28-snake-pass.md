@@ -2,7 +2,7 @@
 layout: default
 title: "Snake Pass"
 date: 2017-03-28
-year: 2017
+latestdate: 
 artstyle: 3D
 playable: "Yes"
 mods: "No"
