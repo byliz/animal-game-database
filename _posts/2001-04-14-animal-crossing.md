@@ -26,7 +26,9 @@ platform:
 - Wii U
 - Android
 - iOS
-developer: Nintendo
+developer: 
+- Nintendo
+- NDCube
 publisher: Nintendo
 series: 
 - "Animal Crossing"
