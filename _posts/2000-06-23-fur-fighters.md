@@ -20,7 +20,7 @@ emoticon:
 - 🦝
 - 🐉
 genre: 
-- TPS
+- tps
 platform:
 - Dreamcast
 - Windows
