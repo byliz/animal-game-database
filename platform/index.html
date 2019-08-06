@@ -14,6 +14,15 @@ title: By Platform |
 {% endfor %}
 {% endfor %}
 
+<h2 id="dreamcast">All Games on Dreamcast</h2>
+{% for post in site.posts %}
+{% for tags in post.platform %}
+{% if tags == "Dreamcast" %}
+{% include post_preview.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+
 <h2 id="gamecube">All Games on GameCube</h2>
 {% for post in site.posts %}
 {% for tags in post.platform %}
