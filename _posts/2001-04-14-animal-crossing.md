@@ -6,7 +6,7 @@ latestdate: 2017-10-25
 artstyle: 3D
 playable: "No"
 mods: "No"
-type: anthropomorphic
+type: kemono
 species: 
 - multiple
 emoticon:
