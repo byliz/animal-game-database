@@ -28,6 +28,6 @@ excerpt: In this action rpg set in a steampunk fantasy world you play as Red Sav
 link: https://en.wikipedia.org/wiki/Solatorobo:_Red_the_Hunter
 img: solatorobo.jpg
 suggester: Ghostly
-suggesterurl: http://twitter.com/iamGhostlyS
+suggesterurl: http://twitter.com/ghostlyholo
 ---
 
