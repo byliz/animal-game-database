@@ -6,7 +6,7 @@ latestdate:
 artstyle: 3D
 playable: "Yes"
 mods: "No"
-type: realistic
+type: kemono
 species: 
 - dog
 - big cat
