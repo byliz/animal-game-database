@@ -1,6 +1,6 @@
 # Site Info
-title:              "AGDB: Animal Games Database"
-description:        "This is a database of video games related to animals in which animals are the focus or you can play as an animal."
+title:              "Kemono DB"
+description:        "This is a database of video games featuring kemono or kemonomimi."
 
 # Author Info
 author_name:        "CozyMaus"
@@ -21,7 +21,7 @@ paginate: 5
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: animal-games-database
+    shortname: kemonodb
 
 # Site Build
 highlighter: rouge
