@@ -6,7 +6,7 @@ latestdate:
 artstyle: 2D and 3D
 playable: "Yes"
 mods: "No"
-type: anthropomorphic
+type: kemono
 species: 
 - dog
 - cat
