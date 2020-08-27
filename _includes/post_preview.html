@@ -15,13 +15,11 @@
 
 		✨ Type: <a href="/type/#{{ post.type }}" title="See all games with characters of this type.">{{ post.type }}</a> 
 
-		<br>🦋 Species: 
+		<br>🦋 Playable species: 
 
 		{% for tags in post.species %}
 		[<a href="/species/#{{ tags | downcase | remove: ' ' }}" title="See all games with this animal species."> {{ tags }} </a>] 
 		{% endfor %}
-
-		<br>🎮 Play as animal? {{ post.playable }} <br>
 
 		📝 Genre(s): 
 
