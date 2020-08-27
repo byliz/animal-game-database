@@ -6,26 +6,19 @@ title: By Type |
 <h1>Filter by Type</h1>
 
 <div class="post">
-<p>There are three "types" on this list: anthropomorphic, zoomorphic, and realistic. Anthropomorphism means that prominent animal characters in the game are mostly animal with some human features. Zoomorphism means that prominent animal characters in the game are mostly human with some animal features. Realism means that prominent animal characters in the game have no human traits.</p>
+  <p>There are two "types" on this list: <em>kemono</em> and <em>kemonomimi</em>. <em>Kemono<em> is the Japanese word for "animal" or "beast" and refers to anthropomorphic animal characters - animal characters with human characteristics such as talking and walking on two legs. <em>Kemonomimi</em> means "animal ears" and refers to zoomorphic human characters - human characters with animal traits such as animal ears and tails.</p>
 </div>
 
-<h2 id="anthropomorphic">All Games with Kemono Characters</h2>
+<h2 id="kemono">All Games with Kemono Characters</h2>
 {% for post in site.posts %}
-{% if post.type == "anthropomorphic" %}
+{% if post.type == "kemono" %}
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}
 
-<h2 id="realistic">All Games with Realistic Animals</h2>
+<h2 id="kemonomimi">All Games with Kemonomimi Characters</h2>
 {% for post in site.posts %}
-{% if post.type == "realistic" %}
-{% include post_preview.html %}
-{% endif %}
-{% endfor %}
-
-<h2 id="zoomorphic">All Games with Kemonomimi Characters</h2>
-{% for post in site.posts %}
-{% if post.type == "zoomorphic" %}
+{% if post.type == "kemonomimi" %}
 {% include post_preview.html %}
 {% endif %}
 {% endfor %}
