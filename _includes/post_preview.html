@@ -10,14 +10,14 @@
 		🦋 Type of dragon featured: 
 		{% for tags in post.type %}
 
-		[ <a href="/type/#{{ tags }}" title="See all games with dragons of this type.">{{ tags }}</a> ]  
+		[&nbsp;<a href="/type/#{{ tags }}" title="See all games with dragons of this type.">{{ tags }}</a>&nbsp;]  
 
 		{% endfor %}
 		
 		<br>📝 Genre: 
 		{% for tags in post.genre %}
 
-		[ <a href="/genre/#{{ tags }}" title="See all {{ tags }} games.">{{ tags }}</a> ]  
+		[&nbsp;<a href="/genre/#{{ tags }}" title="See all {{ tags }} games.">{{ tags }}</a>&nbsp;]  
 
 		{% endfor %}
 		
@@ -26,7 +26,7 @@
 		💻 Platform:			
 		{% for tags in post.platform %}
 		
-		[<a href="/platform/#{{ tags | downcase | remove: ' ' }}" title="See all games on {{ tags }}."> {{ tags }} </a>] 
+		[&nbsp;<a href="/platform/#{{ tags | downcase | remove: ' ' }}" title="See all games on {{ tags }}."> {{ tags }} </a>&nbsp;] 
 
 		{% endfor %} 
 
@@ -34,21 +34,21 @@
 
 		{% for tags in post.developer %}
 
-		[ <a href="https://www.google.com/search?q='{{ tags }}'" target="_blank" title="Learn more about {{ tags }}.">{{ tags }}</a> ]  
+		[&nbsp;<a href="https://www.google.com/search?q='{{ tags }}'" target="_blank" title="Learn more about {{ tags }}.">{{ tags }}</a>&nbsp;]  
 
 		{% endfor %}
 
 		<br>⬇️ Publisher: 
 		{% for tags in post.publisher %}
 		
-		[ {{ tags }} ] 
+		[&nbsp;{{ tags }}&nbsp;] 
 
 		{% endfor %} 
 
 		{% if post.series != nil %} <br>📚 Franchise: 
 
 		{% for tags in post.series %}
-		[ <a href="https://www.google.com/search?q='{{ tags }}'" target="_blank" title="Find {{ tags }}.">{{ tags }}</a> ] 
+		[&nbsp;<a href="https://www.google.com/search?q='{{ tags }}'" target="_blank" title="Find {{ tags }}.">{{ tags }}</a>&nbsp;] 
 		{% endfor %}
 
 		{% endif %} 
