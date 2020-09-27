@@ -30,7 +30,6 @@ div#content a, div#navigation a {
 div#content a:hover, div#navigation a:hover {
   text-decoration: none;
   color: darkgreen;
-  font-size: 15pt;
 }
 
 h1, h2, h3 {
