@@ -127,7 +127,6 @@ div.post, div.archives {
 	margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
-  border-radius: 20px;
   background-color: white;
   background-position: center;
 }
@@ -150,7 +149,6 @@ div.post div.postimg {
 
 div.post img {
   width: 100%;
-  border-radius: 20px; 
   border: 5px solid pink;
   
 }
@@ -293,7 +291,6 @@ div.post {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 100px;
-  border-radius: 20px;
   background-color: white;
   background-position: center;
 }
