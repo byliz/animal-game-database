@@ -16,9 +16,10 @@
 		[ <a href="/genre/#{{ tags }}" title="See all {{ tags }} games.">{{ tags }}</a> ]  
 
 		{% endfor %}
+		
+		<br>🎨 Art Style: {{ post.artstyle }} <br>
 
-
-		<br>💻 Platform(s):			
+		💻 Platform(s):			
 		{% for tags in post.platform %}
 		
 		[<a href="/platform/#{{ tags | downcase | remove: ' ' }}" title="See all games on {{ tags }}."> {{ tags }} </a>] 
