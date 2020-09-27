@@ -5,13 +5,7 @@
 
 	<p class="excerpt">
 
-		📅 Initial Release: {{ post.date | date_to_long_string }}	<br>
-
-		{% if post.latestdate != nil %}
-
-		🆕 Latest Release: {{ post.latestdate | date_to_long_string }}	<br>
-
-		{% endif %}
+		📅 Release Date: {{ post.date | date_to_long_string }}	<br>
 
 		🦋 Type: <a href="/type/#{{ post.type }}" title="See all games with characters of this type.">{{ post.type }}</a> <br>
 
