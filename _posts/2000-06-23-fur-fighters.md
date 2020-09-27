@@ -2,23 +2,11 @@
 layout: default
 title: Fur Fighters
 date: 2000-06-23
-latestdate: 
 artstyle: 3D (Dreamcast) and Cel-Shaded (PlayStation 2)
 playable: "Yes"
 mods: "No"
-type: anthropomorphic
-species: 
-- dog
-- cat
-- bird
-- other
-emoticon: 
-- 🐶
-- 🐱
-- 🦘
-- 🐧
-- 🦝
-- 🐉
+type: 
+- dragon
 genre: 
 - tps
 platform:
@@ -30,7 +18,7 @@ developer: Bizarre Creations
 publisher:
 - Acclaim Entertainment
 series: 
-excerpt: Play as a dog named Roofus, a cat named Juliette, a penguin named Rico, a kangaroo named Bungalow, a red panda named Chang, and a baby dragon named Tweek as you shoot your way to rescuing the village's baby animals from the evil cat General Viggo. Each animal has special abilities related to their species but all of them wield weapons, walk upright, and can talk (with the exception of the baby dragon Tweek) like humans do.
+excerpt: In this action adventure game, one of the characters you can play as is an anthropomorphic baby dragon named Tweek. Each animal species in this game has different abilities. As a dragon, Tweek can glide and withstand fire and lava. Unlike the other characters, Tweek cannot speak and does not wear clothes. His objective in the game is to save his mother and siblings, as they had been kidnapped along with the other babies in the animal village.
 link: https://en.wikipedia.org/wiki/Fur_Fighters
 img: furfighters.jpg
 suggester: 
