@@ -1,7 +1,7 @@
 <div class="post">
 	<div class="postimg"><img src="https://cozymaus.github.io/img/animal-games-database/{{ post.img }}" class="img-fluid" alt="{{ post.title }}"></div>
 	<br><br>
-	<h3>{{ post.title }} {% for tags in post.emoticon %}{{ tags }} {% endfor %}</h3>
+	<h3>{{ post.title }}</h3>
 
 	<p class="excerpt">
 
@@ -13,13 +13,7 @@
 
 		{% endif %}
 
-		✨ Type: <a href="/type/#{{ post.type }}" title="See all games with characters of this type.">{{ post.type }}</a> 
-
-		<br>🦋 Playable species: 
-
-		{% for tags in post.species %}
-		[<a href="/species/#{{ tags | downcase | remove: ' ' }}" title="See all games with this animal species."> {{ tags }} </a>] 
-		{% endfor %}
+		🦋 Type: <a href="/type/#{{ post.type }}" title="See all games with characters of this type.">{{ post.type }}</a> 
 
 		📝 Genre(s): 
 
