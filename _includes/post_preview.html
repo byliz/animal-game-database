@@ -8,7 +8,7 @@
 		📅 Release date: {{ post.date | date_to_long_string }}	<br>
 
 		🦋 Type of dragon: 
-		{% for tags in post.genre %}
+		{% for tags in post.type %}
 
 		[ <a href="/type/#{{ tags }}" title="See all games with dragons of this type.">{{ tags }}</a> ]  
 
