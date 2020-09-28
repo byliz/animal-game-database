@@ -146,14 +146,6 @@ div.post button:hover {
   background-color: white;
 }
 
-div.archives {
-  border-radius: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  background-color: pink;
-}
-
 div.title {
   margin-left: 0px;
   margin-right: 0px;
@@ -279,7 +271,6 @@ div#navigation {
   position: fixed;
   background-color: white;
   border: 5px solid pink;
-  padding: 20px 0px 0px 0px;
 }
 
 div#content {
@@ -292,7 +283,12 @@ div#content {
 /*mobile*/
 
 @media (max-width: 600px) {
-
+div.archives {
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
 
 div.post {
   margin-left: 0px;
@@ -307,6 +303,8 @@ padding: 20px 0px 0px 0px;
 
 div#navigation {
 width: 100%;
+position:relative;
+padding: 20px 0px 0px 0px;
 }
 
 }
