@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fur Fighters
 date: 2000-06-23
 artstyle: 3D (Dreamcast) and Cel-Shaded (PlayStation 2)
