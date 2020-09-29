@@ -250,11 +250,12 @@ div.post {
 }
 
 div.archives {
-padding: 30px;
-margin-left: 100px;
-margin-right: 100px;
 background-color: pink;
 background-position: center;
+border-radius: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
 }
 
 div.post div.postimg {
@@ -283,12 +284,7 @@ div#content {
 /*mobile*/
 
 @media (max-width: 600px) {
-div.archives {
-  border-radius: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
+
 
 div.post {
   margin-left: 0px;
