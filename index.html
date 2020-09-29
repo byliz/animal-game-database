@@ -28,29 +28,7 @@ excerpt: "All games sorted by latest release."
   {% for post in site.posts %}
     
     <div class="post">
-            
-
-           <!-- <a href="https://cozymaus.com/pink-box/{{ post.category | downcase }}" class="category" title="{{ post.category }}">
-            {% case post.category %}
-              {% when 'Movies' %}
-              <div class="category"><p>🎬</p></div>
-              {% when 'Books' %}
-              <div class="category"><p>📚</p></div>
-              {% when 'Games' %}
-              <div class="category"><p>🎮</p></div>
-              {% when 'Anime' %}
-              <div class="category"><p>🌸</p></div>
-              {% when 'Music' %}
-              <div class="category"><p>🎶</p></div>
-              {% when 'IRL' %}
-              <div class="category"><p>🌐</p></div>
-              {% else %}
-              <div></div>
-            {% endcase %}
-            </a>
-
-            <a href="#" class="calendar">
-<div class="date">📅 {{ post.date | date: '%B %d, %Y' }}</div></a>-->
+         
 
 <a href="{{ post.url }}" class="link">
                 <span class="title">{{ post.title }}</span> <br> <span class="excerpt">{{ post.excerpt }}</span>
