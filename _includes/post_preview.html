@@ -1,4 +1,5 @@
 	<p class="excerpt">
+		📖 {{ post.excerpt }}<br><br>
 
 		📅 Released {{ post.date | date_to_long_string }}	<br>
 
@@ -53,7 +54,6 @@
 		{% endif %}
 		<br><br>
 		
-		📖 {{ post.excerpt }}<br><br>
 		ℹ️ More information: {{ post.link }} </p>
 		
 		🔗 <input type="text" value="{{ site.url }}/#{{ post.title | downcase | remove: ' ' }}" id="myInput {{ post.title }}">
