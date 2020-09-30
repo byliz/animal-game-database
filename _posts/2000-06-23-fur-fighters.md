@@ -2,6 +2,7 @@
 layout: post
 title: Fur Fighters
 date: 2000-06-23
+posted: 2020-09-29
 artstyle: 3D (Dreamcast) and Cel-Shaded (PlayStation 2)
 playable: "Yes"
 mods: "No"
