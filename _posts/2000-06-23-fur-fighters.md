@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Fur Fighters
 date: 2000-06-23
 posted: 2020-09-29
