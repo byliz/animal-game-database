@@ -80,7 +80,11 @@ div.container-fluid {
 }
 
 div#mainarea {
-	width:70%;
+float:left;
+width:70%;
+}
+
+div#content, div#comments {
 	margin: 0 auto;
 	float: left;
 	border: 5px solid black;
@@ -375,9 +379,11 @@ width:90%!important;
 }
 
 div#comments {
-width: 95%;
+width: 100%;
 margin-left: auto;
 margin-right: auto;
+margin-top:20px;
+padding:20px;
 }
 
 @media (min-width: 768px) {	
@@ -424,7 +430,7 @@ div.post a.link {
 	width: 65%;
 }
 
-div#mainarea {
+div#mainarea, div#comments, div#content {
 	width: 100%;
 }
 
