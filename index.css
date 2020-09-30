@@ -426,10 +426,6 @@ div#title h2 {
 	font-size: 12pt;
 }
 
-div.post a.link {
-	width: 65%;
-}
-
 div#mainarea, div#comments, div#content {
 	width: 100%;
 }
