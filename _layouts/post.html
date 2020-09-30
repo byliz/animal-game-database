@@ -75,14 +75,12 @@
         Posted on {{ page.posted | date: '%A, %B %d, %Y' }} <br>
         <!--Posted {{ page.date | date: '%A, %B %d, %Y' }} in <a href="https://cozymaus.com/pink-box/{{ page.category | downcase  }}">{{ page.category }}</a>-->
         </p>
-
-        <p style="font-style:italic; padding-bottom:20px; line-height:135%;">{{ page.excerpt }}</p>
-        
+       
         <div class="article">
-        {{content}}
           
            {% include  post_preview.html %}
-          
+                  {{content}}
+
         </div>
 
         {% include disqus_comments.html %}
