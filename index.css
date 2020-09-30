@@ -370,6 +370,10 @@ input {
 width:100%;
 }
 
+input#myInput {
+width:90%;
+}
+
 div#comments {
 width: 95%;
 margin-left: auto;
