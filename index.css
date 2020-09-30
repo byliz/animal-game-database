@@ -54,6 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, table td, ul li, h3, h2, h1, select, a, input {
 	font-family: Arial, sans-serif;
+	line-height:135%;
+	padding-bottom:10px;
 }
 
 a:link {
@@ -384,6 +386,10 @@ margin-left: auto;
 margin-right: auto;
 margin-top:20px;
 padding:20px;
+}
+
+div.widget p {
+line-height:;
 }
 
 @media (min-width: 768px) {	
