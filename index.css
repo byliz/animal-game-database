@@ -366,6 +366,10 @@ ul li {
 	margin-left: 20px;
 }
 
+input {
+width:100%;
+}
+
 @media (min-width: 768px) {	
 
 
