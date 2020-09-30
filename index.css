@@ -370,8 +370,8 @@ input {
 width:100%;
 }
 
-input#myInput {
-width:90%;
+div#mainarea input {
+width:90%!important;
 }
 
 div#comments {
