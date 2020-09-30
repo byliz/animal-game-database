@@ -1,27 +1,27 @@
 	<p class="excerpt">
 		<br>
-		📖 {{ post.excerpt }}<br><br>
+		📖 {{ page.excerpt }}<br><br>
 
-		📅 Released {{ post.date | date_to_long_string }}	<br>
+		📅 Released {{ page.date | date_to_long_string }}	<br>
 
 		🦋 Type of dragon: 
-		{% for tags in post.type %}
+		{% for tags in page.type %}
 
 		[&nbsp;{{ tags }}&nbsp;]  
 
 		{% endfor %}
 		
 		<br>📝 Genre: 
-		{% for tags in post.genre %}
+		{% for tags in page.genre %}
 
 		[&nbsp;{{ tags }}&nbsp;]  
 
 		{% endfor %}
 		
-		<br>🎨 Art style: {{ post.artstyle }} <br>
+		<br>🎨 Art style: {{ page.artstyle }} <br>
 
 		💻 Platform:			
-		{% for tags in post.platform %}
+		{% for tags in page.platform %}
 		
 		[&nbsp;{{ tags }}&nbsp;] 
 
@@ -29,14 +29,14 @@
 
 		<br>⬆️ Developer: 
 
-		{% for tags in post.developer %}
+		{% for tags in page.developer %}
 
 		[&nbsp;{{ tags }}&nbsp;]  
 
 		{% endfor %}
 
 		<br>⬇️ Publisher: 
-		{% for tags in post.publisher %}
+		{% for tags in page.publisher %}
 		
 		[&nbsp;{{ tags }}&nbsp;] 
 
@@ -44,27 +44,27 @@
 
 		{% if post.series != nil %} <br>📚 Franchise: 
 
-		{% for tags in post.series %}
+		{% for tags in page.series %}
 		[&nbsp;{{ tags }}&nbsp;] 
 		{% endfor %}
 
 		{% endif %} 
 
-		{% if post.suggester != nil %}
-		<br>❤️ Suggested by {{ post.suggester }}
+		{% if page.suggester != nil %}
+		<br>❤️ Suggested by {{ page.suggester }}
 		{% endif %}
 		<br><br>
 		
-		ℹ️ More information: {{ post.link }} </p>
+		ℹ️ More information: {{ page.link }} </p>
 		<br>
-		🔗 <input type="text" value="{{ site.url }}/#{{ post.title | downcase | remove: ' ' }}" id="myInput {{ post.title }}">
+		🔗 <input type="text" value="{{ site.url }}/{{ page.url }}" id="myInput {{ page.title }}">
 		<!--<button onclick="myFunction()" title="Copy link to {{ post.title }}.">Copy</button>-->
 	
 </div>
 
 <!--<script>
 function myFunction() {
-  var copyText = document.getElementById("myInput {{ post.title }}");
+  var copyText = document.getElementById("myInput {{ page.title }}");
   copyText.select();
   document.execCommand("copy");
   alert("Copied the text: " + copyText.value);
