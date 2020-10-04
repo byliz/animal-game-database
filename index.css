@@ -388,12 +388,16 @@ margin-top:20px;
 padding:20px;
 }
 
-div.widget p {
-line-height:;
-}
-
 @media (min-width: 768px) {	
 
+
+}
+
+@media (max-width: 1022px) {
+
+	div#title h1 {
+	 font-size:70pt
+	}
 
 }
 
