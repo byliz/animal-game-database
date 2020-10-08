@@ -388,9 +388,12 @@ margin-top:20px;
 padding:20px;
 }
 
-@media (min-width: 768px) {	
+@media (min-width: 801px) {	
 
-
+div.side-widgets {
+	position: sticky !important;
+	top: 0 !important;
+}
 }
 
 @media (max-width: 1022px) {
