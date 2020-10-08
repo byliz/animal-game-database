@@ -394,6 +394,7 @@ padding:20px;
 @media (min-width: 801px) {	
 
 div.side-widgets {
+	position: -webkit-sticky; /* Safari */
 	position: sticky !important;
 	top: 0 !important;
 }
