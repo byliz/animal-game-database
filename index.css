@@ -235,7 +235,7 @@ div.post div.category {
 }
 
 div.post a.link, div.post a.calendar {
-	width: 100%;
+	/*width: 100%;*/
 }
 
 div.post a.link span.excerpt {
