@@ -2,15 +2,10 @@
 layout: default
 title: Tokyo Jungle
 date: 2012-06-07
-latestdate: 
+posted: 2020-10-18
 artstyle: 3D
-playable: "Yes"
 mods: "No"
-type: realistic
 species: 
-- dog
-- big cat
-- deer
 - multiple
 emoticon: 
 - 🐶
