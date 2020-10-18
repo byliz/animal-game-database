@@ -2,11 +2,9 @@
 layout: default
 title: WolfQuest
 date: 2007-12-21
-latestdate: 
+posted: 2020-10-18
 artstyle: 3D
-playable: "Yes"
 mods: "No"
-type: realistic
 species: 
 - wolf
 emoticon:
