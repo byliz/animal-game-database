@@ -7,7 +7,7 @@ posted: 2020-10-04
 artstyle: 3D
 playable: "Yes"
 mods: "No"
-type: 
+species: 
 - dragon
 genre: 
 - platformer
