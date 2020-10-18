@@ -1,15 +1,13 @@
 ---
-layout: default
+layout: post
+comments: true
 title: "Snake Pass"
 date: 2017-03-28
-latestdate: 
+posted: 2020-10-18
 artstyle: 3D
-playable: "Yes"
 mods: "No"
-type: anthropomorphc
 species: 
 - snake
-- reptile
 emoticon:
 - 🐍
 genre: 
