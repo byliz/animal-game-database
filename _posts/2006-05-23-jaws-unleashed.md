@@ -2,11 +2,9 @@
 layout: default
 title: Jaws Unleashed
 date: 2006-05-23
-latestdate: 
+posted: 2020-10-18
 artstyle: 3D
-playable: "Yes"
 mods: "No"
-type: realistic
 species: 
 - shark
 - water
