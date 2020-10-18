@@ -2,11 +2,9 @@
 layout: default
 title: The Endless Forest
 date: 2006-02-15
-latestdate: 
+posted: 2020-10-18
 artstyle: 3D
-playable: "Yes"
 mods: "No"
-type: anthropomorphic
 species: 
 - deer
 emoticon:
