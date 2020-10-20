@@ -114,9 +114,9 @@ div#sidebar {
 	margin: 0 auto;
 	float: left;
 	/*border: 5px solid black;
-	border-left: none;*/
+	border-left: none;
 	height: 100vh;
-	/*padding: 20px;*/
+	padding: 20px;*/
 }
 
 div#sidebar div.widget {
@@ -394,10 +394,14 @@ padding:20px;
 @media (min-width: 801px) {	
 
 div.side-widgets {
-	position: -webkit-sticky; /* Safari */
+	/*position: -webkit-sticky;
 	position: sticky !important;
-	top: 0 !important;
+	top: 0 !important;*/
 }
+	
+div.sidebar-stuff {
+	position: fixed !important;
+	}
 }
 
 @media (max-width: 1022px) {
