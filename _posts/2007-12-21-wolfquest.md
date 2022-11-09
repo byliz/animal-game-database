@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: WolfQuest
 date: 2007-12-21
 posted: 2020-10-18
