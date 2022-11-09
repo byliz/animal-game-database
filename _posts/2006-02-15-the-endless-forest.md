@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Endless Forest
 date: 2006-02-15
 posted: 2020-10-18
