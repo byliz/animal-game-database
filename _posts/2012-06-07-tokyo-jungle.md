@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Tokyo Jungle
 date: 2012-06-07
 posted: 2020-10-18
