@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Jaws Unleashed
 date: 2006-05-23
 posted: 2020-10-18
